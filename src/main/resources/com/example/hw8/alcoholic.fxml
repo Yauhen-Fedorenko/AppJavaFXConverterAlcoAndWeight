@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hw8.AlcoCon">
+   <children>
+      <Label fx:id="main_lab" alignment="CENTER" prefHeight="70.0" prefWidth="400.0" style="-fx-background-color: #cde1d5;">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="113.0" layoutY="95.0" mnemonicParsing="false" onAction="#getAlcoholic" prefHeight="25.0" prefWidth="176.0" text="Рассчитай алко" />
+      <Label fx:id="lab_beer" layoutX="1.0" layoutY="152.0" prefHeight="25.0" prefWidth="400.0" />
+      <Label layoutY="177.0" prefHeight="25.0" prefWidth="400.0" text="количество пива, с содержанием алк. не более 5.0%" />
+      <Label fx:id="lab_wine" layoutX="1.0" layoutY="214.0" prefHeight="25.0" prefWidth="400.0" />
+      <Label layoutY="239.0" prefHeight="25.0" prefWidth="400.0" text="Количества вина, с содержанием алк. не более 12.0% (не портвейн)" />
+      <Label fx:id="lab_wiskey" layoutY="277.0" prefHeight="25.0" prefWidth="400.0" />
+      <Label layoutY="296.0" prefHeight="25.0" prefWidth="400.0" text="40% и этим все сказано" />
+      <TextField fx:id="lab_in" layoutX="112.0" layoutY="70.0" prefHeight="25.0" prefWidth="176.0" />
+   </children>
+</AnchorPane>
